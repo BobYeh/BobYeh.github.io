@@ -13,6 +13,8 @@ import { LogLevel } from '@framework/live2dcubismframework';
 // 画面
 export const ViewMaxScale = 2.0;
 export const ViewMinScale = 0.8;
+//export const ViewMaxScale = 100.0;
+//export const ViewMinScale = 0.8;
 
 export const ViewLogicalLeft = -1.0;
 export const ViewLogicalRight = 1.0;
@@ -26,7 +28,7 @@ export const ViewLogicalMaxTop = 2.0;
 export const ResourcesPath = '../../Resources/';
 
 // モデルの後ろにある背景の画像ファイル
-export const BackImageName = 'back_class_normal.png';
+//export const BackImageName = 'back_class_normal.png';
 
 // 歯車
 export const GearImageName = 'icon_gear.png';
@@ -37,7 +39,7 @@ export const PowerImageName = 'CloseNormal.png';
 // モデル定義---------------------------------------------
 // モデルを配置したディレクトリ名の配列
 // ディレクトリ名とmodel3.jsonの名前を一致させておくこと
-export const ModelDir: string[] = ['鬼崎きらら_モデラ_export'];
+export const ModelDir: string[] = ['擠奶妹07_胸部外擴'];
 export const ModelDirSize: number = ModelDir.length;
 
 // 外部定義ファイル（json）と合わせる
@@ -62,5 +64,11 @@ export const DebugTouchLogEnable = false;
 export const CubismLoggingLevel: LogLevel = LogLevel.LogLevel_Verbose;
 
 // デフォルトのレンダーターゲットサイズ
-export const RenderTargetWidth = 1900;
-export const RenderTargetHeight = 1000;
+//export const RenderTargetWidth = 1900;
+//export const RenderTargetHeight = 1000;
+
+export const RenderTargetWidth = 1700;
+export const RenderTargetHeight = 900;
+
+//export const RenderTargetWidth = 3535;
+//export const RenderTargetHeight = 5500;
