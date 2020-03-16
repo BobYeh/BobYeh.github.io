@@ -137,7 +137,11 @@ export class LAppLive2DManager {
     let projection: Csm_CubismMatrix44 = new Csm_CubismMatrix44();
 
     const { width, height } = canvas;
-    projection.scale(1.0, width / height);
+
+    if(width >= height)
+      projection.scale(1.0, width / height);
+    else
+      projection.scale(height * 2.0 / width, 2.0);
 
     if (this._viewMatrix != null) {
       projection.multiplyByMatrix(this._viewMatrix);

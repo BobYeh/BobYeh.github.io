@@ -45,17 +45,36 @@ export class LAppView {
   public initialize(): void {
     const { width, height } = canvas;
 
-    const ratio: number = height / width;
-    const left: number = LAppDefine.ViewLogicalLeft;
-    const right: number = LAppDefine.ViewLogicalRight;
-    const bottom: number = -ratio;
-    const top: number = ratio;
+    var ratio: number = height / width;
+    var left: number = LAppDefine.ViewLogicalLeft;
+    var right: number = LAppDefine.ViewLogicalRight;
+    var bottom: number = -ratio;
+    var top: number = ratio;
+
+    if(height >= width)
+    {
+      ratio = width / height;
+      left = -ratio;
+      right = ratio;
+      bottom = LAppDefine.ViewLogicalLeft;
+      top = LAppDefine.ViewLogicalRight;
+    }
 
     this._viewMatrix.setScreenRect(left, right, bottom, top); // デバイスに対応する画面の範囲。 Xの左端、Xの右端、Yの下端、Yの上端
 
-    const screenW: number = Math.abs(left - right);
-    this._deviceToScreen.scaleRelative(screenW / width, -screenW / width);
+    if(height >= width)
+    {
+      const screenH: number = Math.abs(bottom - top);
+      this._deviceToScreen.scaleRelative(screenH / height, -screenH / height);
+    }
+    else
+    {
+      const screenW: number = Math.abs(left - right);
+      this._deviceToScreen.scaleRelative(screenW / width, -screenW / width);
+    }
+
     this._deviceToScreen.translateRelative(-width * 0.5, -height * 0.5);
+    //this._deviceToScreen.translateRelative(0, 0);
 
     // 表示範囲の設定
     this._viewMatrix.setMaxScale(LAppDefine.ViewMaxScale); // 限界拡張率
@@ -69,6 +88,7 @@ export class LAppView {
       LAppDefine.ViewLogicalMaxTop
     );
   }
+
 
   /**
    * 解放する
@@ -121,23 +141,23 @@ export class LAppView {
     let imageName = '';
 
     // 背景画像初期化
-    //imageName = LAppDefine.BackImageName;
+    imageName = LAppDefine.BackImageName;
 
     // 非同期なのでコールバック関数を作成
-    // const initBackGroundTexture = (textureInfo: TextureInfo): void => {
-    //   const x: number = width * 0.5;
-    //   const y: number = height * 0.5;
+    const initBackGroundTexture = (textureInfo: TextureInfo): void => {
+      const x: number = width * 0.5;
+      const y: number = height * 0.5;
 
-    //   const fwidth = textureInfo.width * 2.0;
-    //   const fheight = height * 0.95;
-    //   this._back = new LAppSprite(x, y, fwidth, fheight, textureInfo.id);
-    // };
+      const fwidth = width * 1.0;
+      const fheight = height * 1.0;
+      this._back = new LAppSprite(x, y, fwidth, fheight, textureInfo.id);
+    };
 
-    // textureManager.createTextureFromPngFile(
-    //   resourcesPath + imageName,
-    //   false,
-    //   initBackGroundTexture
-    // );
+    textureManager.createTextureFromPngFile(
+      resourcesPath + imageName,
+      false,
+      initBackGroundTexture
+    );
 
     // // 歯車画像初期化
     // imageName = LAppDefine.GearImageName;

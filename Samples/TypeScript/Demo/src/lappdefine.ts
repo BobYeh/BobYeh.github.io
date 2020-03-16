@@ -28,7 +28,7 @@ export const ViewLogicalMaxTop = 2.0;
 export const ResourcesPath = '../../Resources/';
 
 // モデルの後ろにある背景の画像ファイル
-//export const BackImageName = 'back_class_normal.png';
+export const BackImageName = 'white2.png';
 
 // 歯車
 export const GearImageName = 'icon_gear.png';
@@ -67,8 +67,5 @@ export const CubismLoggingLevel: LogLevel = LogLevel.LogLevel_Verbose;
 //export const RenderTargetWidth = 1900;
 //export const RenderTargetHeight = 1000;
 
-export const RenderTargetWidth = 1700;
-export const RenderTargetHeight = 900;
-
-//export const RenderTargetWidth = 3535;
-//export const RenderTargetHeight = 5500;
+export const RenderTargetWidth = window.innerWidth - 20;
+export const RenderTargetHeight = window.innerHeight - 20;
