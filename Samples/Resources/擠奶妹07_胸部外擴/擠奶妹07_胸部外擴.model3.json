@@ -3,7 +3,7 @@
 	"FileReferences": {
 		"Moc": "擠奶妹07_胸部外擴.moc3",
 		"Textures": [
-			"擠奶妹07_胸部外擴.2048/texture_00.png"
+			"擠奶妹07_胸部外擴.4096/texture_00.png"
 		],
 		"Physics": "擠奶妹07_胸部外擴.physics3.json",
 		"DisplayInfo": "擠奶妹07_胸部外擴.cdi3.json",
@@ -33,7 +33,7 @@
 	],
 	"HitAreas": [
 		{
-				"Id": "HitAreaBody",
+				"Id": "HitArea",
 				"Name": "Body"
 		}
 	]
