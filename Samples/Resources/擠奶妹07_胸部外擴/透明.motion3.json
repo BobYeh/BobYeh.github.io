@@ -1,17 +1,39 @@
 {
 	"Version": 3,
 	"Meta": {
-		"Duration": 5,
+		"Duration": 1.267,
 		"Fps": 30.0,
 		"Loop": true,
 		"AreBeziersRestricted": true,
-		"CurveCount": 35,
-		"TotalSegmentCount": 52,
-		"TotalPointCount": 111,
+		"CurveCount": 106,
+		"TotalSegmentCount": 117,
+		"TotalPointCount": 237,
 		"UserDataCount": 0,
 		"TotalUserDataSize": 0
 	},
 	"Curves": [
+		{
+			"Target": "Model",
+			"Id": "Opacity",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "Model",
+			"Id": "EyeBlink",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.267,
+				1
+			]
+		},
 		{
 			"Target": "Parameter",
 			"Id": "ParamEyeLOpen",
@@ -19,16 +41,16 @@
 				0,
 				1,
 				0,
-				1.333,
+				0.667,
 				1,
 				0,
-				1.5,
+				0.733,
 				0,
 				0,
-				1.667,
+				0.833,
 				1,
 				0,
-				5,
+				1.267,
 				1
 			]
 		},
@@ -39,16 +61,16 @@
 				0,
 				1,
 				0,
-				1.333,
+				0.667,
 				1,
 				0,
-				1.5,
+				0.733,
 				0,
 				0,
-				1.667,
+				0.833,
 				1,
 				0,
-				5,
+				1.267,
 				1
 			]
 		},
@@ -59,7 +81,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -70,7 +92,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -81,7 +103,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -92,7 +114,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -103,7 +125,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -114,7 +136,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -125,7 +147,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -136,7 +158,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -147,7 +169,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -158,7 +180,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -169,7 +191,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -180,7 +202,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -191,7 +213,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -202,7 +224,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -213,7 +235,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -224,7 +246,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -235,7 +257,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -246,7 +268,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -257,7 +279,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -268,7 +290,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -279,7 +301,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -290,7 +312,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -301,7 +323,29 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleX2",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleY2",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.267,
 				0
 			]
 		},
@@ -312,32 +356,25 @@
 				0,
 				20,
 				1,
+				0.2,
+				20,
 				0.4,
-				20,
-				0.8,
 				-8,
-				1.2,
+				0.6,
 				-8,
 				1,
-				1.633,
+				0.811,
 				-8,
-				2.067,
+				1.022,
 				20,
-				2.5,
+				1.233,
 				20,
 				1,
-				2.9,
+				1.244,
 				20,
-				3.3,
-				-8,
-				3.7,
-				-8,
-				1,
-				4.133,
-				-8,
-				4.567,
+				1.256,
 				20,
-				5,
+				1.267,
 				20
 			]
 		},
@@ -348,7 +385,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				0
 			]
 		},
@@ -359,7 +396,29 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param20",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param21",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.267,
 				0
 			]
 		},
@@ -370,7 +429,18 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleX",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.267,
 				0
 			]
 		},
@@ -381,7 +451,18 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleY",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.267,
 				0
 			]
 		},
@@ -392,10 +473,10 @@
 				0,
 				30,
 				0,
-				0.167,
+				0.067,
 				0,
 				0,
-				5,
+				1.267,
 				30
 			]
 		},
@@ -406,7 +487,7 @@
 				0,
 				0,
 				0,
-				5,
+				1.267,
 				600
 			]
 		},
@@ -417,32 +498,18 @@
 				0,
 				-11,
 				1,
+				0.2,
+				-11,
 				0.4,
-				-11,
-				0.8,
 				11,
-				1.2,
+				0.6,
 				11,
 				1,
-				1.644,
+				0.822,
 				11,
-				2.089,
+				1.044,
 				-11,
-				2.533,
-				-11,
-				1,
-				2.967,
-				-11,
-				3.4,
-				11,
-				3.833,
-				11,
-				1,
-				4.222,
-				11,
-				4.611,
-				-11,
-				5,
+				1.267,
 				-11
 			]
 		},
@@ -453,33 +520,30 @@
 				0,
 				17,
 				1,
+				0.2,
+				17,
 				0.4,
-				17,
-				0.8,
 				-19,
-				1.2,
+				0.6,
 				-19,
 				1,
-				1.644,
+				0.822,
 				-19,
-				2.089,
+				1.044,
 				17,
-				2.533,
-				17,
-				1,
-				2.967,
-				17,
-				3.4,
-				-19,
-				3.833,
-				-19,
-				1,
-				4.222,
-				-19,
-				4.611,
-				17,
-				5,
+				1.267,
 				17
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param27",
+			"Segments": [
+				0,
+				0,
+				0,
+				1.267,
+				0
 			]
 		},
 		{
@@ -489,11 +553,690 @@
 				0,
 				7.6,
 				0,
-				4.333,
-				7.6,
-				0,
-				5,
+				1.267,
 				7.6
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part22",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part35",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "DOWN",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "L3",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "b2",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part25",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part26",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "R3",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "b3",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part27",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part28",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "UP",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "R_hand_all",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "L_hand_all",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "b4",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part29",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part30",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part31",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part32",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part33",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part34",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part21",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part20",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "e",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part2",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "h",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part3",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part4",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part5",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "face",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "hair",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "face2",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part19",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part6",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "u",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part7",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part8",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "c",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part9",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part10",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Legs",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "L",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part11",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part12",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "R",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part13",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part14",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "b",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part15",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "sk",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "S",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part16",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part17",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "Part18",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "L2",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "R2",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "s3",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "up",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "l",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "r2",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "h2",
+			"Segments": [
+				0,
+				1,
+				0,
+				1.27,
+				1
 			]
 		}
 	]

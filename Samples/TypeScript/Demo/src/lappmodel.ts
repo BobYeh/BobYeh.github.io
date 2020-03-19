@@ -695,11 +695,19 @@ export class LAppModel extends CubismUserModel {
     for (let i = 0; i < count; i++) {
       if (this._modelSetting.getHitAreaName(i) == hitArenaName) {
         const drawId: CubismIdHandle = this._modelSetting.getHitAreaId(i);
+        this.playAudio("../../Resources/擠奶妹07_胸部外擴/塞抗臭臭.wav");
         return this.isHit(drawId, x, y);
       }
     }
-
     return false;
+  }
+
+  //Temp audio play
+  public playAudio(audionName: string){
+    let audio = new Audio();
+    audio.src = audionName;
+    audio.load();
+    audio.play();
   }
 
   /**
