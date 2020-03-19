@@ -556,6 +556,11 @@ export class LAppModel extends CubismUserModel {
 
     const motionFileName = this._modelSetting.getMotionFileName(group, no);
 
+    //play voices when hit motion start
+    if(motionFileName == "透明.motion3.json"){
+      this.playAudio("hitVoice1");
+    }
+
     // ex) idle_0
     const name = `${group}_${no}`;
     let motion: CubismMotion = this._motions.getValue(name) as CubismMotion;
@@ -695,7 +700,7 @@ export class LAppModel extends CubismUserModel {
     for (let i = 0; i < count; i++) {
       if (this._modelSetting.getHitAreaName(i) == hitArenaName) {
         const drawId: CubismIdHandle = this._modelSetting.getHitAreaId(i);
-        this.playAudio("../../Resources/擠奶妹07_胸部外擴/塞抗臭臭.wav");
+        //this.playAudio("hitVoice1");
         return this.isHit(drawId, x, y);
       }
     }
@@ -703,10 +708,9 @@ export class LAppModel extends CubismUserModel {
   }
 
   //Temp audio play
-  public playAudio(audionName: string){
-    let audio = new Audio();
-    audio.src = audionName;
-    audio.load();
+  public playAudio(audioId: string){
+    var audio = <HTMLAudioElement>document.getElementById(audioId);
+    audio.currentTime = 0;
     audio.play();
   }
 

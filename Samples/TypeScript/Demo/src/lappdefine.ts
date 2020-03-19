@@ -67,5 +67,8 @@ export const CubismLoggingLevel: LogLevel = LogLevel.LogLevel_Verbose;
 //export const RenderTargetWidth = 1900;
 //export const RenderTargetHeight = 1000;
 
-export const RenderTargetWidth = window.innerWidth - 20;
-export const RenderTargetHeight = window.innerHeight - 20;
+// export const RenderTargetWidth = window.innerWidth - 20;
+// export const RenderTargetHeight = window.innerHeight - 20;
+
+export const RenderTargetWidth = document.documentElement.clientWidth;
+export const RenderTargetHeight = document.documentElement.clientHeight;
