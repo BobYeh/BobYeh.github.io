@@ -46,6 +46,7 @@ export class LAppView {
     const { width, height } = canvas;
 
     var ratio: number = height / width;
+    //var ratio: number = width / height;
     var left: number = LAppDefine.ViewLogicalLeft;
     var right: number = LAppDefine.ViewLogicalRight;
     var bottom: number = -ratio;
